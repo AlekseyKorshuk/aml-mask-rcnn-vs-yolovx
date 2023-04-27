@@ -14,10 +14,10 @@ The goal of this assignment is train both models on custom annotated dataset.
 
 # Colab notebook 
 
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/AlekseyKorshuk/aml-faster-rcnn-vs-yolovx/blob/main/AML_%7C_Faster_RCNN_Yolovx.ipynb)
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/AlekseyKorshuk/aml-mask-rcnn-vs-yolovx/blob/main/AML_%7C_Faster_RCNN_Yolovx.ipynb)
 
 Follow this
-link: [link](https://colab.research.google.com/github/AlekseyKorshuk/aml-faster-rcnn-vs-yolovx/blob/main/AML_%7C_Faster_RCNN_Yolovx.ipynb)
+link: [link](https://colab.research.google.com/github/AlekseyKorshuk/aml-mask-rcnn-vs-yolovx/blob/main/AML_%7C_Faster_RCNN_Yolovx.ipynb)
 
 # Taking photos
 
@@ -29,7 +29,7 @@ I desided to detect spoon and fox. So here are example images:
 
 This is very easy to annotate obhject detection dataset. Here is a screenshot from the roboflow ui:
 
-<img src="https://raw.githubusercontent.com/AlekseyKorshuk/aml-faster-rcnn-vs-yolovx/main/docs/annotation.png" alt="Annotation" width="1200"/>
+<img src="https://raw.githubusercontent.com/AlekseyKorshuk/aml-mask-rcnn-vs-yolovx/main/docs/annotation Small.png" alt="Annotation" width="1200"/>
 
 # Faster RCNN using detectron2
 
@@ -37,7 +37,7 @@ Based on official documentation of detectron2 and roboflow I was able to train M
 
 Sample predictions:
 
-<img src="https://raw.githubusercontent.com/AlekseyKorshuk/aml-faster-rcnn-vs-yolovx/main/docs/rcnn-preds-1.png" alt="preds" width="320"/><img src="https://raw.githubusercontent.com/AlekseyKorshuk/aml-faster-rcnn-vs-yolovx/main/docs/rcnn-preds-2.png" alt="preds" width="320"/>
+<img src="https://raw.githubusercontent.com/AlekseyKorshuk/aml-mask-rcnn-vs-yolovx/main/docs/rcnn.png" alt="preds" width="320"/>
 
 # Yolov8
 
@@ -45,7 +45,7 @@ With the usage of yolo client it was super smooth to train yolov8s on custom dat
 
 Sample predictions:
 
-<img src="https://raw.githubusercontent.com/AlekseyKorshuk/aml-faster-rcnn-vs-yolovx/main/docs/yolo-preds.jpg" alt="preds" width="1200"/>
+<img src="https://raw.githubusercontent.com/AlekseyKorshuk/aml-mask-rcnn-vs-yolovx/main/docs/yolo.jpg" alt="preds" width="1200"/>
 
 # Comparison
 
