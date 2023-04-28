@@ -29,7 +29,7 @@ I desided to detect spoon and fox. So here are example images:
 
 This is very easy to annotate obhject detection dataset. Here is a screenshot from the roboflow ui:
 
-<img src="https://raw.githubusercontent.com/AlekseyKorshuk/aml-mask-rcnn-vs-yolovx/main/docs/annotation Small.png" alt="Annotation" width="1200"/>
+<img src="https://raw.githubusercontent.com/AlekseyKorshuk/aml-mask-rcnn-vs-yolovx/main/docs/annotation.jpeg" alt="Annotation" width="1200"/>
 
 # Faster RCNN using detectron2
 
