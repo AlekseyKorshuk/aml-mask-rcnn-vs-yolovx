@@ -27,7 +27,7 @@ I desided to detect spoon and fox. So here are example images:
 
 # Annotation with roboflow
 
-This is very easy to annotate obhject detection dataset. Here is a screenshot from the roboflow ui:
+This is very easy to annotate object segmentation dataset. Here is a screenshot from the roboflow ui:
 
 <img src="https://raw.githubusercontent.com/AlekseyKorshuk/aml-mask-rcnn-vs-yolovx/main/docs/annotation.jpeg" alt="Annotation" width="1200"/>
 
